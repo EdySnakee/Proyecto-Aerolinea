@@ -1,0 +1,13 @@
+<div *ngIf="passengers">
+  <h2>List of Passengers:</h2>
+  <ul>
+    <li *ngFor="let passenger of passengers">
+      Name: {{ passenger.name }} |
+      Age: {{ passenger.age }} |
+      Country: {{ passenger.country }}
+    </li>
+  </ul>
+</div>
+
+
+
